@@ -1,0 +1,195 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-09-23T11:16:47.162Z",
+        "line": 18,
+        "name": "Eating",
+        "description": "",
+        "id": "eating-fruits;eating;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7161400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "There are \"12\" fruits",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"12\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepfruits.Therearefruits(String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "type",
+                  "with"
+                ]
+              },
+              {
+                "cells": [
+                  "apples",
+                  "me"
+                ]
+              },
+              {
+                "cells": [
+                  "oranges",
+                  "mary"
+                ]
+              },
+              {
+                "cells": [
+                  "cucumbers",
+                  "john"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 723400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I eat \"5\" fruits",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"5\"",
+                  "offset": 6
+                }
+              ],
+              "location": "stepfruits.main1(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 677400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I have \"7\" fruits",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"7\"",
+                  "offset": 7
+                }
+              ],
+              "location": "stepfruits.main(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-09-23T11:16:47.637Z",
+        "line": 19,
+        "name": "Eating",
+        "description": "",
+        "id": "eating-fruits;eating;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3106000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "There are \"10\" fruits",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"10\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepfruits.Therearefruits(String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "type",
+                  "with"
+                ]
+              },
+              {
+                "cells": [
+                  "apples",
+                  "me"
+                ]
+              },
+              {
+                "cells": [
+                  "oranges",
+                  "mary"
+                ]
+              },
+              {
+                "cells": [
+                  "cucumbers",
+                  "john"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 679600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I eat \"4\" fruits",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"4\"",
+                  "offset": 6
+                }
+              ],
+              "location": "stepfruits.main1(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 665200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I have \"6\" fruits",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"6\"",
+                  "offset": 7
+                }
+              ],
+              "location": "stepfruits.main(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Eating fruits",
+    "description": "This feature explains about fruits",
+    "id": "eating-fruits",
+    "keyword": "Feature",
+    "uri": "classpath:fruits/fruits.feature",
+    "tags": []
+  }
+]

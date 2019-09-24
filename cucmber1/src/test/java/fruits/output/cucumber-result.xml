@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="0.454836">
+<testcase classname="Eating fruits" name="Eating" time="0.44846">
+<system-out><![CDATA[Given There are "12" fruits.................................................passed
+When I eat "5" fruits.......................................................passed
+Then I have "7" fruits......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Eating fruits" name="Eating_2" time="0.006376">
+<system-out><![CDATA[Given There are "10" fruits.................................................passed
+When I eat "4" fruits.......................................................passed
+Then I have "6" fruits......................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
